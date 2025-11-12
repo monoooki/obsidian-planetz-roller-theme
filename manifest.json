@@ -1,12 +1,9 @@
 {
-  "id": "obsidian-planetz-roller-theme",
   "name": "Planetz Roller",
-  "type": "theme",
   "version": "1.0.0",
   "minAppVersion": "1.4.0",
   "author": "monoooki",
   "authorUrl": "https://monoooki.net",
-  "description": "A soft, painted Obsidian theme with gentle pastels and low-contrast surfaces inspired by the Planetz Big Swig Roller.",
-  "isDesktopOnly": false
+  "fundingUrl": "https://ko-fi.com/monoooki"
 }
 
