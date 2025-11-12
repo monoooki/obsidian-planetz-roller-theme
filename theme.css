@@ -23,6 +23,7 @@
   --text-muted: #818c84;
   --text-faint: #5e6861;
   --text-heading: #e4ebe6;
+  --inline-title-color: #ff7a8a;
   --text-highlight-bg: #3d4148;
   --text-on-accent: #101212;
   --text-error: #ff6678;
@@ -85,6 +86,7 @@
   --text-accent-visited: #88ddc1;
   --text-accent-visited-hover: #a9f8df;
   --text-heading: #e4ebe6;
+  --inline-title-color: #ff7a8a;
   --outline-item-color: #818c84;
   --outline-item-color-active: #d2d9d4;
   --text-on-accent: #101212;
@@ -146,6 +148,7 @@
   --text-accent-visited: #3cb68c;
   --text-accent-visited-hover: #82e0c4;
   --text-heading: #1f2521;
+  --inline-title-color: #ff7a8a;
   --text-highlight-bg: #e7f2ee;
   --outline-item-color: #6e7972;
   --outline-item-color-active: #3f4642;
@@ -504,6 +507,13 @@ body:is(.theme-dark, .theme-light) .internal-link:visited:hover {
 :is(.theme-dark, .theme-light) .cm-s-obsidian span.cm-header,
 :is(.theme-dark, .theme-light) .cm-s-obsidian span.cm-strong.cm-header {
   color: var(--text-heading);
+}
+
+:is(body.theme-dark, body.theme-light)
+  :is(.markdown-preview-view, .markdown-source-view, .view-content)
+  :is(h1.inline-title, .inline-title),
+:is(.theme-dark, .theme-light) .cm-s-obsidian .cm-inline-title {
+  color: var(--inline-title-color);
 }
 
 :is(.theme-dark, .theme-light) .workspace-ribbon,
