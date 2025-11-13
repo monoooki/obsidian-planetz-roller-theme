@@ -2,7 +2,7 @@
 
 ![hero](assets/hero.png)
 
-**Planetz Roller** is a light, soft-toned theme with a flat, painted look across the entire interface. The name comes from the [_Planetz Big Swig Roller_](https://splatoonwiki.org/wiki/Planetz_Big_Swig_Roller), a roller-type weapon in Splatoon 3.
+**Planetz Roller** is a colorful, soft-toned theme with a flat, painted look across the entire interface. The name comes from the [_Planetz Big Swig Roller_](https://splatoonwiki.org/wiki/Planetz_Big_Swig_Roller), a roller-type weapon in Splatoon 3.
 
 ![](assets/planetz-roller-dark.png)
 
